@@ -1,0 +1,17 @@
+<% content_for :title, "Column1"%>
+<%content_for :col1 do %>
+</br></br>
+<h1>This is my right side</h1> </br>
+<% end %>
+
+<% content_for :title, "Column2"%>
+<%content_for :col2 do %>
+</br></br>
+<%= link_to "Click here to link to myContacts :)", my_contacts_path(@my_Contacts) %>
+<% end %>
+
+<% content_for :title, "Column3"%>
+<%content_for :col3 do %>
+</br></br>
+<h1>This is my left side</h1>
+<% end %>
